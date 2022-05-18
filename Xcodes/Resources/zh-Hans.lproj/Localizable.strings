@@ -1,0 +1,219 @@
+// Menu
+"Menu.About" = "关于 Xcodes";
+"Menu.CheckForUpdates" = "检查更新...";
+"Menu.Acknowledgements" = "Xcodes 致谢";
+"Menu.GitHubRepo" = "Xcodes GitHub 仓库";
+"Menu.ReportABug" = "提交 Bug";
+"Menu.RequestNewFeature" = "请求新功能";
+
+// Common
+"Install" = "安装";
+"InstallDescription" = "安装此版本";
+"RevealInFinder" = "在访达中显示";
+"Active" = "已启用";
+"MakeActive" = "启用";
+"Open" = "打开";
+"OpenDescription" = "打开此版本";
+"CopyPath" = "拷贝路径";
+"CreateSymLink" = "创建符号链接到 /Applications/Xcode.app";
+"Uninstall" = "卸载";
+"Selected" = "已启用";
+"Select" = "启用";
+"Cancel" = "取消";
+"Next" = "下一步";
+"Continue" = "继续";
+"Close" = "关闭";
+"OK" = "好的";
+
+// Info Pane
+"IdenticalBuilds" = "相同构建版本";
+"IdenticalBuilds.help" = "有时候 RC 版本和正式版本是相同的构建版本，Xcodes 会自动把它们显示在一起。";
+
+"ReleaseDate" = "发布日期";
+"ReleaseNotes" = "更新日志";
+"ReleaseNotes.help" = "查看更新日志";
+"Compatibility" = "兼容性";
+"MacOSRequirement" = "需要 macOS %@ 或更高版本";
+"SDKs" = "SDKs";
+"Compilers" = "编译器";
+"DownloadSize" = "下载大小";
+"NoXcodeSelected" = "选择一个版本";
+
+// Installation Steps
+// When localizing. Items will be replaced in order. ie "Step 1 of 6: Downloading"
+// So if changing order, make sure the positional specficier is retained. ex: "%3$@: Step %1$d of %2$d"
+"InstallationStepDescription" = "进度 %1$d/%2$d: %3$@";
+"DownloadingPercentDescription" = "下载中: %d%%";
+"StopInstallation" = "停止安装";
+"DownloadingError" = "无下载信息";
+
+// About
+"VersionWithBuild" = "版本 %@ (%@)";
+"GithubRepo" = "GitHub 仓库";
+"Acknowledgements" = "致谢";
+"UnxipExperiment" = "Unxip 实验性功能";
+"License" = "许可";
+
+// General Preference Pane
+"General" = "通用";
+"AppleID" = "Apple ID";
+"SignIn" = "登录";
+"Notifications" = "通知";
+
+// Updates Preference Pane
+"Updates" = "更新";
+"Versions" = "版本";
+"AutomaticInstallNewVersion" = "自动安装新版本 Xcode";
+"IncludePreRelease" = "包括 Beta/RC 版本";
+"AppUpdates" = "Xcodes.app 更新";
+"CheckForAppUpdates" = "自动检查更新";
+"CheckNow" = "检查更新";
+"LastChecked" = "上一次检查: %@";
+"Never" = "无";
+
+// Advanced Preference Pane
+"Advanced" = "高级";
+"LocalCachePath" = "本地缓存路径";
+"LocalCachePathDescription" = "Xcodes 会缓存可用的 Xcode 版本信息到本地";
+"Change" = "更改";
+"Active/Select" = "启用/xcode-select";
+"AutomaticallyCreateSymbolicLink" = "自动创建符号链接到 /Applications/Xcode.app";
+"AutomaticallyCreateSymbolicLinkDescription" = "每当启用某个版本的 Xcode，尝试创建符号链接到 /Applications/Xcode.app";
+"DataSource" = "数据来源";
+"DataSourceDescription" = "Apple 数据来源抓取自 Apple 官方开发者网站，更新及时但不稳定。\n\nXcode Releases 是一个非官方的 Xcode 版本列表，提供了格式化的数据，还包含了一些无法从 Apple 便捷访问到的额外信息，同时也更加稳定，即使官方开发者网站发生变动也不会宕机。";
+"Downloader" = "下载器";
+"DownloaderDescription" = "aria2 使用多达 16 个线程，下载速度比 URLSession 快三到五倍。Xcodes 内嵌了 aria2 可执行文件以及源代码，这符合了其 GPLv2 许可的要求。\n\nURLSession 是 Apple 发起网络请求的默认 API。";
+"PrivilegedHelper" = "帮助程序";
+"PrivilegedHelperDescription" = "Xcodes 使用一个帮助程序来以 root 身份执行一些需要管理员权限的任务，包括完成安装后的操作，以及使用 xcode-select 切换 Xcode 版本。您可能需要输入 macOS 账号密码来安装帮助程序。";
+"HelperInstalled" = "已安装";
+"HelperNotInstalled" = "未安装";
+"InstallHelper" = "安装帮助程序";
+
+// Experiment Preference Pane
+"Experiments" = "实验室";
+"FasterUnxip" = "unxip";
+"UseUnxipExperiment" = "使用实验特性来快速解压 xip 文件";
+"FasterUnxipDescription" = "感谢 @_saagarjha, 这项实验特性可以提升最高 70% 的解压速度（不同系统下有差异）。\n\n关于 unxip 是如何做到这一切的，可以查看其 GitHub 仓库 - https://github.com/saagarjha/unxip";
+
+// Notifications
+"AccessGranted" = "通知已开启，您将收到 Xcodes 的通知。";
+"AccessDenied" = "⚠️ 通知被关闭 ⚠️\n\n如果您希望收到 Xcode 更新的消息，请打开 Xcodes 的通知开关。";
+"NotificationSettings" = "通知设置";
+"EnableNotifications" = "开启通知";
+
+// SignIn
+"SignInWithApple" = "用 Apple ID 登录";
+"AppleID" = "Apple ID：";
+"Password" = "密码：";
+"Required" = "必须";
+"SignOut" = "登出";
+
+// SMS/2FA
+"DigitCodeDescription" = "输入可信设备上显示的 %d 位数字：";
+"SendSMS" = "发送短信";
+"EnterDigitCodeDescription" = "输入发送到 %@ 的 %d 位数字：";
+"SelectTrustedPhone" = "选择一个可信的手机号码以通过短信接收一个 %d 位数字：";
+"NoTrustedPhones" = "您的账号未绑定手机号码，无法进行两步验证。\n\n查看 https://support.apple.com/zh-cn/HT204915";
+
+// MainWindow
+"UpdatedAt" = "更新于";
+
+// ToolBar
+"Login" = "登录";
+"LoginDescription" = "登录";
+"Refresh" = "刷新";
+"RefreshDescription" = "刷新";
+"All" = "所有";
+"Release" = "正式版";
+"ReleaseOnly" = "仅正式版";
+"Beta" = "测试版";
+"BetaOnly" = "仅测试版";
+"Filter" = "筛选";
+"FilterAvailableDescription" = "筛选可用版本";
+"FilterInstalledDescription" = "筛选已安装版本";
+"Info" = "信息";
+"InfoDescription" = "信息面板";
+"Preferences" = "设置";
+"PreferencesDescription" = "设置";
+"Search" = "查找...";
+"SearchDescription" = "在列表中查找";
+
+// List
+"ActiveVersionDescription" = "已启用的版本";
+"MakeActiveVersionDescription" = "启用此版本";
+
+// Alerts
+// Uninstall
+"Alert.Uninstall.Title" = "卸载 Xcode %@?";
+"Alert.Uninstall.Message" = "Xcode 将被移至废纸篓，但不会被清倒。";
+"Alert.Uninstall.Error.Title" = "无法卸载 Xcode";
+
+// Cancel Install
+"Alert.CancelInstall.Title" = "停止安装 Xcode %@?";
+"Alert.CancelInstall.Message" = "已完成的步骤将被丢弃。";
+"Alert.CancelInstall.PrimaryButton" = "停止安装";
+
+// Privileged Helper
+"Alert.PrivilegedHelper.Title" = "帮助程序";
+"Alert.PrivilegedHelper.Message" = "Xcodes 使用一个帮助程序来以 root 身份执行一些需要管理员权限的任务，包括完成安装后的操作，以及使用 xcode-select 来切换 Xcode 版本。您可能需要输入 macOS 账号密码来安装帮助程序。";
+"Alert.PrivilegedHelper.Error.Title" = "无法安装帮助程序";
+
+// Min MacOS Supported
+"Alert.MinSupported.Title" = "未满足最低系统版本要求";
+"Alert.MinSupported.Message" = "Xcode %@ 要求 macOS %@, 当前系统为 macOS %@, 您仍然要安装吗?";
+
+// Install
+"Alert.Install.Error.Title" = "无法安装 Xcode";
+"Alert.InstallArchive.Error.Title" = "无法安装 Xcode XIP 存档";
+
+// Update
+"Alert.Update.Error.Title" = "无法获取已启用的 Xcode";
+
+// Active/Select
+"Alert.Select.Error.Title" = "无法启用 Xcode";
+
+// Symbolic Links
+"Alert.SymLink.Title" = "无法创建符号链接";
+"Alert.SymLink.Message" = "/Applications/Xcode.app 已存在且不是符号链接";
+
+// Post install
+"Alert.PostInstall.Title" = "无法执行安装后的操作";
+
+// InstallationErrors
+"InstallationError.DamagedXIP" = " XIP 文件 \"%@\" 已损坏，无法打开";
+"InstallationError.NotEnoughFreeSpaceToExpandArchive" = "可用空间不足，无法解压缩。\n\n留出更多的可用空间然后再次安装 Xcode，Xcodes 会自动从中断的地方继续安装。";
+"InstallationError.FailedToMoveXcodeToApplications" = "移动 Xcode 到 %@ 目录时失败。";
+"InstallationError.FailedSecurityAssessment" = "Xcode %@ 无法通过安全验证，输出如下：\n%@\n它被安装在 %@，您任然可以使用它。";
+"InstallationError.CodesignVerifyFailed" = "Xcode 无法通过代码签名验证，输出如下：\n%@";
+"InstallationError.UnexpectedCodeSigningIdentity" = "Xcode 不具备期望的代码签名 ID。\n当前：\n%@\n%@\n期望：\n%@\n%@";
+
+"InstallationError.UnsupportedFileFormat" = "Xcodes 暂不支持通过 %@  文件格式来安装 Xcode。";
+"InstallationError.MissingSudoerPassword" = "未输入密码，请再次尝试。";
+"InstallationError.UnavailableVersion" = "未找到版本 %@。";
+"InstallationError.NoNonPrereleaseVersionAvailable" = "没有可用的非 RC 版本。";
+"InstallationError.NoPrereleaseVersionAvailable" = "没有可用的 RC 版本。";
+"InstallationError.MissingUsernameOrPassword" = "未输入用户名或密码，请再次尝试。";
+"InstallationError.VersionAlreadyInstalled" = "%@ 已被安装在 %@";
+"InstallationError.InvalidVersion" = "%@ 不是一个有效的版本号。";
+"InstallationError.VersionNotInstalled" = "%@ 未被安装";
+"InstallationError.PostInstallStepsNotPerformed.Installed" = "安装已完成，但是一些后续操作没有自动执行，这些操作会在首次打开 Xcode %@ 时执行。";
+"InstallationError.PostInstallStepsNotPerformed.NotInstalled" =  "安装已完成，但是一些后续操作没有自动执行。Xcodes 使用一个帮助程序来执行这些操作，这个帮助程序没有被安装，您可以在“设置>高级”中安装它。\n\n这些操作会在首次打开 Xcode %@ 时执行";
+
+// Installation Steps
+"Downloading" = "下载中";
+"Unarchiving" = "解压中（这会花一些时间）";
+"Moving" = "移动到 %@";
+"TrashingArchive" = "移动压缩文件到废纸篓";
+"CheckingSecurity" = "安全验证";
+"Finishing" = "结束";
+
+// Notifications
+"Notification.NewVersionAvailable" = "发现新版本";
+"Notification.FinishedInstalling" = "安装已完成";
+
+
+"HelperClient.error" = "无法与帮助程序通讯。";
+///++
+// Notifications
+"Notification.NewXcodeVersion.Title" = "发现新版本 Xcode";
+"Notification.NewXcodeVersion.Body" = " 新版本 Xcode 已经可以下载";
